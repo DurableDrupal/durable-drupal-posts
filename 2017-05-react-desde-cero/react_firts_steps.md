@@ -7,16 +7,16 @@ Para empezar a sumergirse en el mundo ***React*** basemonos en la documentacion 
 ## 2. Como ejecutar en codepen
 Es muy intuitivo ejecutar codigo usando **codepen** Ejemplo [veamos](http://codepen.io/rohan10/pen/qRqmjd):
 Podemos agregar contenido en cualquier seccion y ver el resultado en la region inferior.
-![Editando codigo en codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-codepen.png)
+![Editando codigo en codepen](./img/thinking-in-react-codepen.png)
 
 ## 3. Como exportar y correr ejemplos de codepen en tu computadora
     * Exportar el codigo: Click en el boton `Export`
-![Exportar codigo de codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/export-codepen-code.png)
+![Exportar codigo de codepen](./img/export-codepen-code.png)
     * Descomprimir lo que acabamos de exportar, tendremos la siguiente estructura:
-![Estructura ejemplo codepen](./codepen-structure.png)
+![Estructura ejemplo codepen](./img/codepen-structure.png)
  Click en: index.html (el archivo principal de la aplicacion)
     * Hecho, ya vemos el ejemplo corriendo correctamente
-![proyecto Codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-mock.png)
+![proyecto Codepen](./img/thinking-in-react-mock.png)
 
 ## 4. Por que no se puede editar?
 Si intentaste editar los archivos te habras dado cuenta que no es posible editar porque el archivo `js/index.js` es el archivo javascript con el codigo ya `traspilado/compilado` por [Babel](https://babeljs.io/) Que es el compilador de JavaScript. Es decir no tenemos el codigo original para editarlo. 
@@ -33,7 +33,7 @@ Si intentaste editar los archivos te habras dado cuenta que no es posible editar
     `yarn start`
 
 3. Hacer correr la aplicación de: [codepen](http://codepen.io/rohan10/pen/qRqmjd) 
-![Codepen estructura del proyecto](https://github.com/veronicanerak/react-desde-cero/blob/master/convert-to-create-app-react.png)
+![Codepen estructura del proyecto](./img/convert-to-create-app-react.png)
 Para ello seguir los siguientes pasos:
     * Abrir la aplicación creada y copiar el contenido de HTML en:   
   		`nombre_aplicacion/public/index.html`
@@ -47,7 +47,7 @@ Para ello seguir los siguientes pasos:
     * Ejecutar:  
          `yarn start`
 en la consola se vera muchos errores, como vemos en la siguiente imagen . Sin asustarse importando los archivos faltantes y algun otro cambio lo solucionamos.
-![Errores codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/errors-compile.png)
+![Errores codepen](./img/errors-compile.png)
 
 4. Empezamos a corregir los errores:
 
@@ -56,11 +56,11 @@ en la consola se vera muchos errores, como vemos en la siguiente imagen . Sin as
 
     b) Si vemos la jerarquía de los componentes vemos que el componente principal es: `FilterableProductTable`. Revisemos el archivo 	 
     	`nombre_aplicacion/src/index.js`
-	![Jerarquía de los componentes](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-estructura-componentes.png)
+	![Jerarquía de los componentes](./img/codepen-estructura-componentes.png)
 	
 
     c) Importamos el componente principal reemplazando App por `FilterableProductTable` (que es el componente principal)  (Ver la siguiente imagen)
-    ![Codepen reemplazar componente](https://github.com/veronicanerak/react-desde-cero/blob/master/replace-main-component.png)
+    ![Codepen reemplazar componente](./img/replace-main-component.png)
     
     d) Importamos `ReactDOM`. Ir al archivo `nombre_aplicacion/src/App.js`
  		y agregar en la linea 2: 
@@ -72,7 +72,7 @@ agregar en la linea 3:
 6. Hecho! 
 Ejecutar `yarn start` (si no lo hizo anteriormente) y puede aver la aplicación funcionando correctamente en el navegador:
     
-![Proyecto react](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-mock.png)
+![Proyecto react](./img/thinking-in-react-mock.png)
 
 
 
