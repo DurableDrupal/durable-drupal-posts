@@ -10,12 +10,14 @@ Podemos agregar contenido en cualquier seccion y ver el resultado en la region i
 ![Editando codigo en codepen](./img/thinking-in-react-codepen.png)
 
 ## 3. Como exportar y correr ejemplos de codepen en tu computadora
-    * Exportar el codigo: Click en el boton `Export`
+* Exportar el codigo: Click en el boton `Export`
 ![Exportar codigo de codepen](./img/export-codepen-code.png)
-    * Descomprimir lo que acabamos de exportar, tendremos la siguiente estructura:
+
+* Descomprimir lo que acabamos de exportar, tendremos la siguiente estructura:
 ![Estructura ejemplo codepen](./img/codepen-structure.png)
- Click en: index.html (el archivo principal de la aplicacion)
-    * Hecho, ya vemos el ejemplo corriendo correctamente
+
+Click en: index.html (el archivo principal de la aplicacion)
+* Hecho, ya vemos el ejemplo corriendo correctamente
 ![proyecto Codepen](./img/thinking-in-react-mock.png)
 
 ## 4. Por que no se puede editar?
@@ -32,7 +34,8 @@ Si intentaste editar los archivos te habras dado cuenta que no es posible editar
     `cd nombre_aplicacion`
     `yarn start`
 
-3. Hacer correr la aplicación de: [codepen](http://codepen.io/rohan10/pen/qRqmjd) 
+3. Hacer correr la aplicación de: [codepen](http://codepen.io/rohan10/pen/qRqmjd)
+
 ![Codepen estructura del proyecto](./img/convert-to-create-app-react.png)
 Para ello seguir los siguientes pasos:
     * Abrir la aplicación creada y copiar el contenido de HTML en:   
@@ -44,15 +47,17 @@ Para ello seguir los siguientes pasos:
     * Copiar JS en:
         `nombre_aplicacion/src/App.js`
 
-    * Ejecutar:  
+    * Ejecutar en la consola:  
          `yarn start`
-en la consola se vera muchos errores, como vemos en la siguiente imagen . Sin asustarse importando los archivos faltantes y algun otro cambio lo solucionamos.
+
+Mostrara muchos errores, como vemos en la siguiente imagen. Sin asustarse, ahora importamos los archivos faltantes y algun otro cambio y lo solucionamos.
 ![Errores codepen](./img/errors-compile.png)
 
 4. Empezamos a corregir los errores:
 
     a) Importar React. Agregar en el archivo:  `nombre_aplicacion/src/App.js` en la linea 1
-		`import React, { Component } from 'react';`
+		
+        `import React, { Component } from 'react';`
 
     b) Si vemos la jerarquía de los componentes vemos que el componente principal es: `FilterableProductTable`. Revisemos el archivo 	 
     	`nombre_aplicacion/src/index.js`
@@ -67,9 +72,11 @@ en la consola se vera muchos errores, como vemos en la siguiente imagen . Sin as
 		`import ReactDOM from 'react-dom';`
     e) Importamos el archivo que contiene los estilos. En el mismo archivo `nombre_aplicacion/src/App.js`
 agregar en la linea 3:
-		`import './App.css';`
 
-6. Hecho! 
+        `import './App.css';`
+
+6. Hecho!
+
 Ejecutar `yarn start` (si no lo hizo anteriormente) y puede aver la aplicación funcionando correctamente en el navegador:
     
 ![Proyecto react](./img/thinking-in-react-mock.png)
