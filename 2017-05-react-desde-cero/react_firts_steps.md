@@ -38,17 +38,18 @@ Si intentaste editar los archivos te habras dado cuenta que no es posible editar
 
 ![Codepen estructura del proyecto](./img/convert-to-create-app-react.png)
 Para ello seguir los siguientes pasos:
-    * Abrir la aplicación creada y copiar el contenido de HTML en:   
-  		`nombre_aplicacion/public/index.html`
 
-    * Copiar el contenido de CSS en:
-		`nombre_aplicacion/src/App.css`
+* Abrir la aplicación creada y copiar el contenido de HTML en:   
+    `nombre_aplicacion/public/index.html`
 
-    * Copiar JS en:
-        `nombre_aplicacion/src/App.js`
+* Copiar el contenido de CSS en:
+    `nombre_aplicacion/src/App.css`
 
-    * Ejecutar en la consola:  
-         `yarn start`
+* Copiar JS en:
+    `nombre_aplicacion/src/App.js`
+
+* Ejecutar en la consola:  
+    `yarn start`
 
 Mostrara muchos errores, como vemos en la siguiente imagen. Sin asustarse, ahora importamos los archivos faltantes y algun otro cambio y lo solucionamos.
 ![Errores codepen](./img/errors-compile.png)
