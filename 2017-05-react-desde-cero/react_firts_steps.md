@@ -1,5 +1,7 @@
 # La mejor manera de empezar con React
 
+> Basado en [Thinking in react](https://facebook.github.io/react/docs/thinking-in-react.html), and [codepen example](http://codepen.io/rohan10/pen/qRqmjd) 
+
 ## 1. Las virtudes de thinking in react como tutorial
 
 Para empezar a sumergirse en el mundo ***React*** basemonos en la documentacion oficial de [React](https://facebook.github.io/react/docs/thinking-in-react.html?) Donde sustenta los ejemplos con los conceptos claros y faciles de entender. Adicionalmente usa **Codepen** el cual permite ejecutar el codigo y poder editarlos viendo los resultados al mismo tiempo. De esa manera ejecutar ejemplos desde el primer momento lo cual facilita su comprencion.
