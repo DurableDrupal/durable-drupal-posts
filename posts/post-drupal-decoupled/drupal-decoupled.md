@@ -1,5 +1,7 @@
 # Decoupled from the Inside Out
 
+> Based on [Decoupled from the Inside Out by Lullabot](https://www.youtube.com/watch?v=KF9gG_bkUDo)
+
 ## What open-source CMSes are doing?
 ### Calypso
 ** Pros **
